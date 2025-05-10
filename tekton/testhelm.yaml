@@ -68,6 +68,6 @@ spec:
         secretKeyRef:
           key: username
           name: $(params.git-secret-name)
-    image: quay.io/grakover/buildtaskoc:2
+    image: nexus.muneerkh.local:8082/repository/my-images/tomcathelloworld:2
     name: test-chart-app-ver
     resources: {}
